@@ -98,8 +98,8 @@ git remote
 ```shell
 git remote add origin https://github.com/username/origin.git
 ```
-## How to Use a Git Branch
-Git is a tool used by developers to manage version control of their applications. It is highly popular and used by many important projects. It is also a fairly efficient application. One of the most important functions of Git is the control of branches of development that help improve the creation of a project.
+## Git Branch
+A Git branch is like a copy of your project where you can work on new stuff without messing up the original. When you're done, you can merge the changes back in.
 
 1. In any Git project we can view all branches by entering the following command in the command line:
 ```shell
