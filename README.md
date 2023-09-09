@@ -1,4 +1,4 @@
-![gitandgithublogo](https://github.com/kunalnandre/Git-and-Github/assets/111383966/e597a669-4510-4831-a1b9-c35452f321f8.png)
+![git_and_github_logo](https://github.com/kunalnandre/Git-and-Github/assets/111383966/f2a95d52-c5cb-4b65-8d59-5b796cb3b3a2)
 
 ## What Is Git?
 
