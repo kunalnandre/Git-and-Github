@@ -1,5 +1,3 @@
-![git_and_github_logo](https://github.com/kunalnandre/Git-and-Github/assets/111383966/f2a95d52-c5cb-4b65-8d59-5b796cb3b3a2)
-
 ## What Is Git?
 
 Git is a distributed version control system (VCS) that empowers you to track changes made to project files. It streamlines code management and team collaboration. Whether you’re an individual developer or a team member, learning Git simplifies version control and enhances effectiveness.
