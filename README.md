@@ -143,5 +143,44 @@ git merge [branch]
 ```
 As you can see the basic Git branch functions are pretty easy. You just need to know the fundamentals, and try to keep your management clean.
 
+## Git Stash 
+Git Stash is a command in the Git version control system that allows you to temporarily save changes in your working directory that you do not want to commit immediately but also do not want to discard.
 
+1.If you want to save your local changes in the backstage that shouldnt be  committed. This command will take all the changes in your working directory , You run this command
+```shell
+git stash 
+```
+After running git stash, your working directory will be reverted to the state of the last commit. This means your changes are no longer present in your working directory.
+
+2.When you're ready to bring back your stashed changes, you can use these two commands :
+```shell
+git stash apply 
+```
+git stash apply will apply the most recent stash and keep it in the stash stack.
+```shell
+git stash pop
+```
+git stash pop will apply the most recent stash and remove it from the stash stack.
+
+3.You can stash multiple sets of changes, and they will be stored in a stack , you can  specify which stash you want to apply or pop if you have more than one by using this command:
+```shell
+git stash list
+```
+
+4. You can remove stashed changes from the stack using these commands:
+```shell
+git stash drop
+or
+git stash clear // for clearnig all stashes
+```
+
+Here are some common use cases for **_git stash_**:
+
+* Switching branches: When you want to switch to a different branch but have unfinished work in your current branch.
+*  Pulling in changes: Before pulling changes from a remote repository to avoid conflicts.
+*  Temporary experimentation: When you want to try something out without committing your changes.
+*  Switching focus: When you need to focus on a different task and want to save your current work.
+
+ _git it stash is a valuable tool for managing your work in Git and maintaining a clean and organized version control history_
+ 
 #### So, apply this knowledge and continue refining your Git commands skill. Good luck!
