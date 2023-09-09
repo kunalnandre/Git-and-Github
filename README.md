@@ -147,6 +147,5 @@ git merge [branch]
 ```
 As you can see the basic Git branch functions are pretty easy. You just need to know the fundamentals, and try to keep your management clean.
 
-We have explored a wide range of Git commands essential for effective source control management and seamless code collaboration. Whether you’re an experienced developer or just starting out, mastering these Git commands will elevate your coding journey.
 
-So, apply this knowledge and continue refining your Git commands skill. Good luck!
+#### So, apply this knowledge and continue refining your Git commands skill. Good luck!
