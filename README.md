@@ -2,6 +2,13 @@
 
 Git is a distributed version control system (VCS) that empowers you to track changes made to project files. It streamlines code management and team collaboration. Whether you’re an individual developer or a team member, learning Git simplifies version control and enhances effectiveness.
 
+The main benefits of **_Git_** are:
+* Powerful and detailed change tracking, which means less conflicts.
+* The job can be done offline - except when you are receiving/sending changes to the server.
+* Workflow is flexible.
+* Branching and merging is more reliable.
+* It is very fast.
+
 ## Understanding the Git Workflow:
 
 A Git project consists of three major sections: **the working directory, the staging area, and the git directory.**
