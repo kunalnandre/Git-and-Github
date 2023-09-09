@@ -98,7 +98,51 @@ git remote
 ```shell
 git remote add origin https://github.com/username/origin.git
 ```
+## How to Use a Git Branch
+Git is a tool used by developers to manage version control of their applications. It is highly popular and used by many important projects. It is also a fairly efficient application. One of the most important functions of Git is the control of branches of development that help improve the creation of a project.
 
+1. In any Git project we can view all branches by entering the following command in the command line:
+```shell
+git branch
+```
+2. If there is no branch created, there will be no output in the terminal. Creating a branch is really simple:
+```shell
+git branch [new_branch]
+```
+3. Then, we need to move to the newly created development branch. To do this, we will run the following command:
+```shell
+git checkout [new_branch]
+```
+4. The output will inform us that we switched to a new branch. We called it test, so:
+```shell
+Switched to branch ‘test’
+```
+Now, in that new development branch, we can create as many code modifications as we want without having to change anything in the main one. As we can see, it keeps the program organized for new code inclusions.
+
+5. If we run the command to list the branches again, we will see that a new branch is added and that we are located in it.
+```shell
+git branch
+```
+There is something we need to keep in mind if we want to make a new development branch. First, we need to commit to the main branch for Git to understand what the master branch is. If we do not do this, we will get an error. So first, commit and then create the development branches.
+
+6. If we want to remove a branch from Git, we can do it with the following command:
+```shell
+git branch -d [branch_name]
+```
+However, in order to do this, we must not be located on the branch we want to remove. So in this case, we move to the master branch and from there delete the branch we just created:
+```shell
+git checkout master
+```
+```shell
+git branch -d test
+```
+Finally, there comes a point where we have made many modifications to a development branch. And it becomes stable, so we want to link it to another development branch. For that, there is the merge command.
+
+First, locate the development branch to which the second branch is to be attached. For example, we will attach the test branch to the master branch. Then, we have to place ourselves in the master branch and merge with the command:
+```shell
+git merge [branch]
+```
+As you can see the basic Git branch functions are pretty easy. You just need to know the fundamentals, and try to keep your management clean.
 
 We have explored a wide range of Git commands essential for effective source control management and seamless code collaboration. Whether you’re an experienced developer or just starting out, mastering these Git commands will elevate your coding journey.
 
