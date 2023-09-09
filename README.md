@@ -1,6 +1,6 @@
 ![gdsclogo](https://user-images.githubusercontent.com/61585443/190315619-5d667670-88b8-4516-8cc6-36e3ba03d0ac.png)
 
-![git_and_github_logo](https://github.com/kunalnandre/Git-and-Github/assets/111383966/e597a669-4510-4831-a1b9-c35452f321f8.png)
+![gitandgithublogo](https://github.com/kunalnandre/Git-and-Github/assets/111383966/e597a669-4510-4831-a1b9-c35452f321f8.png)
 
 ## What Is Git?
 
