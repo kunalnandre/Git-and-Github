@@ -146,23 +146,23 @@ As you can see the basic Git branch functions are pretty easy. You just need to 
 ## Git Stash 
 Git Stash is a command in the Git version control system that allows you to temporarily save changes in your working directory that you do not want to commit immediately but also do not want to discard.
 
-1.If you want to save your local changes in the backstage that shouldnt be  committed. This command will take all the changes in your working directory , You run this command
+1. If you want to save your local changes in the backstage that shouldnt be  committed. This command will take all the changes in your working directory , You run this command
 ```shell
 git stash 
 ```
 After running git stash, your working directory will be reverted to the state of the last commit. This means your changes are no longer present in your working directory.
 
-2.When you're ready to bring back your stashed changes, you can use these two commands :
+2. When you're ready to bring back your stashed changes, you can use these two commands :
 ```shell
 git stash apply 
 ```
-git stash apply will apply the most recent stash and keep it in the stash stack.
+*git stash apply will apply the most recent stash and keep it in the stash stack*
 ```shell
 git stash pop
 ```
-git stash pop will apply the most recent stash and remove it from the stash stack.
+*git stash pop will apply the most recent stash and remove it from the stash stack*
 
-3.You can stash multiple sets of changes, and they will be stored in a stack , you can  specify which stash you want to apply or pop if you have more than one by using this command:
+3. You can stash multiple sets of changes, and they will be stored in a stack , you can  specify which stash you want to apply or pop if you have more than one by using this command:
 ```shell
 git stash list
 ```
