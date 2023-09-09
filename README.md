@@ -73,29 +73,29 @@ git mv file1.txt file2.txt
 git mv file1.txt new_directory/
 ```
 ## Git Remote Repository Commands:
-This command creates a copy of a remote repository on your local machine. A basic git clone usage is to clone a repository from GitHub:
+1. This command creates a copy of a remote repository on your local machine. A basic git clone usage is to clone a repository from GitHub:
 ```shell
 git clone https://github.com/username/my-project.git
 ```
-This command sends your local Git branch commits to a remote repository, updating it with your latest changes.
+2. This command sends your local Git branch commits to a remote repository, updating it with your latest changes.
 
 For example, you want to push changes from the local repository called “main” to the remote repository named “origin”:
 ```shell
 git push origin main
 ```
-This command fetches and integrates changes from a remote repository into your current local branch. Here’s a git pull usage example to pull changes from the master branch:
+3. This command fetches and integrates changes from a remote repository into your current local branch. Here’s a git pull usage example to pull changes from the master branch:
 ```shell
 git pull origin master
 ```
-To retrieve new commits from a remote repository without automatically merging them into your current branch, use this command:
+4. To retrieve new commits from a remote repository without automatically merging them into your current branch, use this command:
 ```shell
 git fetch origin
 ```
-This command manages remote repositories associated with your local repository. The basic git remote usage lists the remote repository:
+5. This command manages remote repositories associated with your local repository. The basic git remote usage lists the remote repository:
 ```shell
 git remote
 ```
-To add a new remote repository, specify its name and URL. For example:
+6. To add a new remote repository, specify its name and URL. For example:
 ```shell
 git remote add origin https://github.com/username/origin.git
 ```
